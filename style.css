@@ -1,0 +1,33 @@
+.container {
+  max-width: 1280px;
+  margin: o auto;
+  padding: 110px 241px 24px 241px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 36px;
+}
+header .title {
+  margin: 0;
+  display: inline;
+  font-family: "PT Serif", serif;
+}
+header .right-content {
+  max-width: 439px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+header .right-content .title {
+  font-weight: 700;
+}
+footer {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #a9a9a9;
+}
