@@ -1,7 +1,7 @@
 .container {
   max-width: 1280px;
   margin: o auto;
-  padding: 110px 241px 24px 241px;
+  padding: 110px 141px 24px 141px;
 }
 header {
   display: flex;
@@ -30,4 +30,36 @@ footer {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   color: #a9a9a9;
+}
+.main-content {
+  padding: 96px 0 115px 0;
+  display: flex;
+  flex-direction: column;
+}
+.main-content img {
+  position: relative;
+  width: 238px;
+}
+.main-content .item-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: 67px;
+  justify-content: space-between;
+}
+.main-content .item-content .item-center {
+  padding-top: 70px;
+}
+
+.main-content .item-content .item {
+  display: flex;
+  flex-direction: row;
+}
+.main-content .item-content .job p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin: 0 10px;
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
 }
